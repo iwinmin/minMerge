@@ -1,0 +1,12 @@
+{
+	"sample.host": {
+		"alias": ["other-sample.host"],
+		"local": {
+			"/local-path/": "/to/local/disk/path/",
+			"/other-path/": "../other/path/",
+			"/file-name.html": "../static-file/file.html"
+		},
+		"host": "remote-server.host",
+		"port": 80
+	}
+}
